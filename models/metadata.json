@@ -1,0 +1,60 @@
+{
+  "modelo": "Floresta aleatória",
+  "seed": 42,
+  "target": "Sleep_Quality",
+  "classes": [
+    "Poor",
+    "Fair",
+    "Good",
+    "Excellent"
+  ],
+  "features_entrada": [
+    "Age",
+    "Gender",
+    "Country",
+    "Coffee_Intake",
+    "BMI",
+    "Heart_Rate",
+    "Stress_Level",
+    "Physical_Activity_Hours",
+    "Occupation",
+    "Smoking",
+    "Alcohol_Consumption"
+  ],
+  "excluidas": [
+    "ID",
+    "Sleep_Quality",
+    "Caffeine_mg",
+    "Sleep_Hours",
+    "Health_Issues"
+  ],
+  "n_treino": 8000,
+  "n_teste": 2000,
+  "f1_macro_cv": 0.767910580223896,
+  "f1_macro_teste": 0.7676489128670246,
+  "acuracia_teste": 0.7635,
+  "diagnostico_com_sleep_hours": {
+    "acuracia_teste": 0.9875,
+    "f1_macro_teste": 0.986136618762966
+  },
+  "sensibilidade_sem_estresse": {
+    "acuracia_teste": 0.269,
+    "f1_macro_teste": 0.247583400131985
+  },
+  "fonte": {
+    "url": "https://cdn3.gnarususercontent.com.br/5209-projeto-cientista-dados-nivel-1/synthetic_coffee_health_10000%28in%29.csv",
+    "sha256": "1eacc8c8af9d9d6e1c62f52ccd5330a5d862ce29dd66f2437fcb9e77d227b51a",
+    "registros": 10000,
+    "colunas": 16,
+    "natureza": "sintética"
+  },
+  "python": "3.12.0",
+  "pacotes": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3"
+  }
+}

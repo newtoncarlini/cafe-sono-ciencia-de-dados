@@ -1,0 +1,17 @@
+coluna,tipo,nulos,valores_distintos
+ID,int64,0,10000
+Age,int64,0,59
+Gender,object,0,3
+Country,object,0,20
+Coffee_Intake,float64,0,78
+Caffeine_mg,float64,0,4277
+Sleep_Hours,float64,0,71
+Sleep_Quality,object,0,4
+BMI,float64,0,220
+Heart_Rate,int64,0,58
+Stress_Level,object,0,3
+Physical_Activity_Hours,float64,0,151
+Health_Issues,object,0,4
+Occupation,object,0,5
+Smoking,int64,0,2
+Alcohol_Consumption,int64,0,2

@@ -1,0 +1,7 @@
+{
+  "url": "https://cdn3.gnarususercontent.com.br/5209-projeto-cientista-dados-nivel-1/synthetic_coffee_health_10000%28in%29.csv",
+  "sha256": "1eacc8c8af9d9d6e1c62f52ccd5330a5d862ce29dd66f2437fcb9e77d227b51a",
+  "registros": 10000,
+  "colunas": 16,
+  "natureza": "sintética"
+}

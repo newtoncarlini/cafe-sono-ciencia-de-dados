@@ -1,0 +1,7 @@
+variavel,minimo_observado,maximo_observado,fora_faixa_dicionario
+Age,18.0,80.0,0
+Coffee_Intake,0.0,8.2,0
+Sleep_Hours,3.0,10.0,0
+BMI,15.0,38.2,0
+Heart_Rate,50.0,109.0,0
+Physical_Activity_Hours,0.0,15.0,0

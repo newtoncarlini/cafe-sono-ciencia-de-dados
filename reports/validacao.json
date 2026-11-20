@@ -1,0 +1,9 @@
+{
+  "status": "aprovado",
+  "celulas_codigo_executadas": 22,
+  "figuras": 11,
+  "registros": 10000,
+  "teste": 2000,
+  "modelo_recarregado": true,
+  "metricas_recalculadas": true
+}
